@@ -11,3 +11,13 @@
  *= require_self
  *= require_tree .
  */
+
+@import "bootstrap";
+
+.container {
+  max-width: 1000px;
+}
+
+td.actions {
+  text-align: right;
+}
