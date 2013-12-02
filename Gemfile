@@ -26,6 +26,11 @@ gem 'bootstrap-sass', '~> 3.0.1.0.rc'
 # Development #
 ###############
 
+group :development, :test do
+  gem 'rspec-rails', '~> 2.0'
+  gem 'fuubar'
+end
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
