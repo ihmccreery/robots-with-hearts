@@ -1,4 +1,4 @@
-robots-with-hearts
+Robots with Hearts
 ==================
 
-A blog
+A blog by Charles Marks and Isaac Hollander McCreery.
