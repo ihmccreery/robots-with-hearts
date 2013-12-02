@@ -19,6 +19,9 @@ gem 'haml-rails'
 # XXX this should be stable at some point
 gem 'bootstrap-sass', '~> 3.0.1.0.rc'
 
+# Use Redcarpet to render Markdown
+gem 'redcarpet'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
