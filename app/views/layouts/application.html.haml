@@ -12,9 +12,10 @@
 
     .container
 
+      = render partial: "layouts/nav"
+
       = yield
 
       %hr/
-
       %footer
         %p{class: "text-muted"} © 2013 Charles Marks & Isaac Hollander McCreery
