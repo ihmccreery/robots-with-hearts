@@ -19,6 +19,9 @@ gem 'haml-rails'
 # XXX this should be stable at some point
 gem 'bootstrap-sass', '~> 3.0.1.0.rc'
 
+# Use High Voltage to serve static pages
+gem 'high_voltage'
+
 # Use Redcarpet to render Markdown
 gem 'redcarpet'
 
