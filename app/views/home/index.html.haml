@@ -14,3 +14,6 @@
   .col-md-4
     %h4 Life
     %p What do we do about it?
+
+- @pages.each do |page|
+  = Haml::Engine.new(page.read).render

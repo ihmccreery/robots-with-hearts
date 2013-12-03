@@ -2,7 +2,10 @@ require 'spec_helper'
 
 describe HomeController do
   describe "GET #index" do
-    # no resource to assign
+    it "gathers the appropriate pages" do
+      get :index
+      expect(assigns(:pages).map(&:path)).to eq(Page.page_files.map(&:path))
+    end
 
     it "responds successfully with 200" do
       get :index
