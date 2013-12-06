@@ -11,5 +11,45 @@
  *= require_self
  *= require_tree .
  */
+$red: #990000;
+$brand-primary: $red;
 
 @import "bootstrap";
+
+.header {
+  text-align: center;
+  background: $red;
+
+  h1 {
+    font-size: 8rem;
+    margin: 12rem auto 2rem auto;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  h3 {
+    margin: 2rem auto 12rem auto;
+    color: black;
+  }
+}
+
+.container {
+  margin: 4rem auto;
+  max-width: 800px;
+}
+
+article p {
+  font-family: serif;
+  font-size: 1.9rem;
+}
+
+footer {
+  margin: 4rem auto;
+  text-align: center;
+}
