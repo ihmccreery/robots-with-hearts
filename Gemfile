@@ -47,6 +47,9 @@ end
 # Serving #
 ###########
 
+# For Heroku
+gem 'rails_12factor', group: :production
+
 # Use Thin as the app server
 gem 'thin'
 
