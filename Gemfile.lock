@@ -42,6 +42,9 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.0.2)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     fuubar (1.2.1)
       rspec (~> 2.0)
       rspec-instafail (~> 0.2.0)
@@ -154,6 +157,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.0.1.0.rc)
   coffee-rails (~> 4.0.0)
+  figaro
   fuubar
   haml-rails
   high_voltage
