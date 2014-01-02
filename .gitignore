@@ -17,5 +17,5 @@ rerun.txt
 pickle-email-*.html
 .project
 
-# Ignore application configuration for Figaro
-/config/application.yml
+# Ignore env config for Foreman
+/.env

@@ -50,9 +50,6 @@ end
 # For Heroku
 gem 'rails_12factor', group: :production
 
-# For secrets
-gem 'figaro'
-
 # Use Thin as the app server
 gem 'thin'
 
